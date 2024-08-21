@@ -1,5 +1,7 @@
 import streamlit as st
 
 st.header("Hello")
-st.header("안녕~!")
-st.write("안녕하세요 반가워요!")
+
+isClicked= st.button("이거 누르면 바보")
+if isClicked :
+  st.write("너 참 귀엽다")
