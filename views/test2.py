@@ -57,7 +57,7 @@ option = st.selectbox(
     index=None,
     placeholder='select transportation'
 )
-st.text('you selected: {}'.format(option))
+st.write('you selected: {}'.format(option))
 
 
 st.divider()  # 가로 긴 줄 구분선
