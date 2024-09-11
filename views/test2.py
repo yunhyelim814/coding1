@@ -55,7 +55,7 @@ option = st.selectbox(
     label='your selection is',
     options=['Car', 'Airplane', 'Train', 'Ship'],
     index=None,
-    placeholder='select your favorite transportation'
+    placeholder='select transportation'
 )
 st.test('you selected: {}'.format(option))
 
