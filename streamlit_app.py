@@ -30,18 +30,34 @@ test2_page = st.Page(
     icon=":material/sentiment_satisfied:",
 )
 test3_page = st.Page(
-    page="views/test3.py",
+    page="views/coin_game.py",
     title="동전 던지기 게임",
-    icon=":material/paid:",
+    icon=":material/sentiment_satisfied:",
 )
 test4_page = st.Page(
-    page="views/test4.py",
-    title="스트림릿 테스트 4",
+    page="views/bmi_calc.py",
+    title="체질량지수 BMI 계산",
     icon=":material/sentiment_satisfied:",
 )
 test5_page = st.Page(
-    page="views/test5.py",
-    title="스트림릿 테스트 5",
+    page="views/bibimbap.py",
+    title="비빔밥 주문",
+    icon=":material/sentiment_satisfied:",
+)
+
+graph1_page = st.Page(
+    page="views/graph_matplotlib_1.py",
+    title="맷플롯립 그래프 연습",
+    icon=":material/sentiment_satisfied:",
+)
+graph2_page = st.Page(
+    page="views/graph_pizza_chicken.py",
+    title="피자 vs 치킨",
+    icon=":material/sentiment_satisfied:",
+)
+graph3_page = st.Page(
+    page="views/graph_price.py",
+    title="간식의 가격 변화",
     icon=":material/sentiment_satisfied:",
 )
 
@@ -54,6 +70,7 @@ pg = st.navigation({
     "Info": [about_page],
     "Projects": [project_1_page, project_2_page],
     "스트림릿 연습": [test1_page, test2_page, test3_page, test4_page, test5_page],
+    "데이터 시각화": [graph1_page, graph2_page, graph3_page],
 })
 
 # --- SHARED ON ALL PAGES ---
