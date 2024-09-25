@@ -6,7 +6,8 @@ def playGame(guessNum) :
   comNum = random.randint(0, 1)
   if comNum == guessNum :
     st.write('적중!')
-    st.toast('Mr Stay-Puft')
+    st.snow()
+    
   else:
     st.write('아쉽네요. 틀렸습니다.')
   
